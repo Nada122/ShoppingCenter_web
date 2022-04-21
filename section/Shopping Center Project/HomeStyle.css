@@ -1,0 +1,133 @@
+﻿/*top navigation bar style */
+.navbar {
+    background-color: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-style: italic;
+    overflow: hidden;
+}
+    /*logo position */
+    .navbar img {
+        position: absolute;
+    }
+
+    /* Style the links inside the navigation bar */
+    .navbar a {
+        float: right;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        /*  the color of links on hover */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: rebeccapurple;
+        }
+
+        /* color to the active link */
+        .navbar a.active {
+            color: rebeccapurple;
+        }
+
+/* head part style*/
+.h {
+    text-align: center;
+    background: url(images/cover1.jpeg);
+    background-size: contain;
+    margin: 0%;
+}
+/*main header style*/
+h1 {
+    color:white;
+}
+/* headers style*/
+h2 {
+    background-color: rebeccapurple;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 0%;
+}
+/* welcome part style*/
+.about {
+    text-align: left;
+    background-image: url("images/cover.jpg");
+    background-position: center right;
+    background-size: 300px 150px;
+    background-repeat: no-repeat;
+   
+}
+
+    .about p {
+        margin-left: 50px;
+        margin-right: 50%;
+    }
+/* who we are style*/
+h4 {
+    font-weight: 900;
+    font-size: 0.75cm;
+    margin: 0;
+    margin-left: 50px;
+}
+/* our sevices part style*/
+.image {
+    display: flex;
+    margin: 50px;
+    margin-left: 40%;
+    width: 180px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 100px;
+    flex-wrap: inherit;
+    flex-grow: 2;
+}
+
+image > div {
+    text-align: center;
+}
+
+div.image img {
+    width: 100%;
+    height: auto;
+}
+
+.image img:hover {
+    border: 1px solid rebeccapurple;
+    border-radius: 50%;
+}
+
+
+/* see more buttons style*/
+.image button {
+    width: 80px;
+    height: 40px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    position: center;
+    border-radius: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+/* whole buttons hover */
+button:hover {
+    color: rebeccapurple;
+}
+/* send button style*/
+button {
+    width: 20.5cm;
+    text-align: center;
+}
+/* footer style*/
+footer {
+    text-align: center;
+    margin: 10px;
+    background-color: gray;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    height: 50px;
+}
